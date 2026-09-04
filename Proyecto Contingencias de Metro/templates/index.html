@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Metro de Santiago</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🚇</span>
+                    <div>
+                        <h1>SISTEMA METRO DE SANTIAGO</h1>
+                        <p class="subtitle">Gestión de Rutas y Contingencias</p>
+                    </div>
+                </div>
+                <button class="btn-reset" id="btnReset" title="Reiniciar sistema">🔄 Reiniciar</button>
+            </div>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab active" data-tab="routes">
+                <span class="tab-icon">🗺️</span> Buscar Ruta Óptima
+            </button>
+            <button class="tab" data-tab="contingency">
+                <span class="tab-icon">⚠️</span> Declarar Contingencia
+            </button>
+            <button class="tab" data-tab="status">
+                <span class="tab-icon">📊</span> Estado de Red
+            </button>
+        </nav>
+
+        <main class="content">
+            <!-- P1: Ruta Óptima -->
+            <section class="panel active" id="panel-routes">
+                <div class="panel-header">
+                    <h2>Calcular Ruta Óptima</h2>
+                    <p class="panel-desc">Encuentra la mejor ruta entre dos estaciones seleccionando tu criterio</p>
+                </div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="routeOrigin">Estación Origen</label>
+                        <select id="routeOrigin"></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="routeDest">Estación Destino</label>
+                        <select id="routeDest"></select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Criterio de búsqueda</label>
+                        <div class="radio-group">
+                            <label class="radio-card">
+                                <input type="radio" name="criterio" value="1" checked>
+                                <span class="radio-content">
+                                    <span class="radio-title">🔄 Transbordos</span>
+                                    <span class="radio-desc">Minimiza la cantidad de cambios de línea</span>
+                                </span>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="criterio" value="2">
+                                <span class="radio-content">
+                                    <span class="radio-title">⏱️ Tiempo</span>
+                                    <span class="radio-desc">Minimiza el tiempo de viaje</span>
+                                </span>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="criterio" value="3">
+                                <span class="radio-content">
+                                    <span class="radio-title">⚡ Ambos</span>
+                                    <span class="radio-desc">Equilibra transbordos y tiempo</span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-calculate" id="btnCalculate">
+                    <span class="btn-text">Calcular Ruta</span>
+                    <span class="btn-arrow">→</span>
+                </button>
+                <div class="result-area" id="routeResult"></div>
+            </section>
+
+            <!-- P2: Contingencia -->
+            <section class="panel" id="panel-contingency">
+                <div class="panel-header">
+                    <h2>Declarar Contingencia</h2>
+                    <p class="panel-desc">Cierra estaciones o tramos para simular fallas en la red</p>
+                </div>
+                <div class="contingency-tabs">
+                    <button class="cont-tab active" data-cont="station">🏢 Cerrar Estación</button>
+                    <button class="cont-tab" data-cont="tramo">🛤️ Cerrar Tramo</button>
+                </div>
+
+                <div class="cont-panel active" id="cont-station">
+                    <div class="form-group">
+                        <label for="stationName">Seleccionar estación a cerrar</label>
+                        <select id="stationName"></select>
+                    </div>
+                    <button class="btn-danger" id="btnCloseStation">Cerrar Estación</button>
+                </div>
+
+                <div class="cont-panel" id="cont-tramo">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="tramoE1">Estación Inicio</label>
+                            <select id="tramoE1"></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tramoE2">Estación Término</label>
+                            <select id="tramoE2"></select>
+                        </div>
+                    </div>
+                    <button class="btn-danger" id="btnCloseTramo">Cerrar Tramo</button>
+                </div>
+
+                <div class="result-area" id="contingencyResult"></div>
+            </section>
+
+            <!-- Status -->
+            <section class="panel" id="panel-status">
+                <div class="panel-header">
+                    <h2>Estado de la Red</h2>
+                    <p class="panel-desc">Diagnóstico de conectividad y fallas activas</p>
+                </div>
+                <div class="status-grid">
+                    <div class="status-card">
+                        <div class="status-icon">🔴</div>
+                        <div class="status-info">
+                            <span class="status-label">Estaciones Cerradas</span>
+                            <span class="status-value" id="closedStations">Ninguna</span>
+                        </div>
+                    </div>
+                    <div class="status-card">
+                        <div class="status-icon">🛤️</div>
+                        <div class="status-info">
+                            <span class="status-label">Tramos Bloqueados</span>
+                            <span class="status-value" id="blockedTramos">Ninguno</span>
+                        </div>
+                    </div>
+                    <div class="status-card">
+                        <div class="status-icon">📡</div>
+                        <div class="status-info">
+                            <span class="status-label">Total Estaciones</span>
+                            <span class="status-value" id="totalStations">-</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-check" id="btnCheckStatus">Ejecutar Diagnóstico</button>
+                <div class="result-area" id="statusResult"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Sistema Metro de Santiago — Proyecto Contingencias</p>
+        </footer>
+    </div>
+
+    <div class="toast" id="toast"></div>
+    <script src="/static/app.js"></script>
+</body>
+</html>

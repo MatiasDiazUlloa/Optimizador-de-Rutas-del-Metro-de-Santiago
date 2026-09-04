@@ -1,0 +1,162 @@
+L1,San Pablo,L1,Neptuno,2
+L1,Neptuno,L1,Pajaritos,2
+L1,Pajaritos,L1,Las Rejas,2
+L1,Las Rejas,L1,Ecuador,2
+L1,Ecuador,L1,San Alberto Hurtado,2
+L1,San Alberto Hurtado,L1,Universidad de Santiago,2
+L1,Universidad de Santiago,L1,Estacion Central,2
+L1,Estacion Central,L1,Union Latinoamericana,2
+L1,Union Latinoamericana,L1,Republica,2
+L1,Republica,L1,Los Heroes,2
+L1,Los Heroes,L1,La Moneda,2
+L1,La Moneda,L1,Universidad de Chile,2
+L1,Universidad de Chile,L1,Santa Lucia,2
+L1,Santa Lucia,L1,Universidad Catolica,2
+L1,Universidad Catolica,L1,Baquedano,2
+L1,Baquedano,L1,Salvador,2
+L1,Salvador,L1,Manuel Montt,2
+L1,Manuel Montt,L1,Pedro de Valdivia,2
+L1,Pedro de Valdivia,L1,Los Leones,2
+L1,Los Leones,L1,Tobalaba,2
+L1,Tobalaba,L1,El Golf,2
+L1,El Golf,L1,Alcantara,2
+L1,Alcantara,L1,Escuela Militar,2
+L1,Escuela Militar,L1,Manquehue,2
+L1,Manquehue,L1,Hernando de Magallanes,2
+L1,Hernando de Magallanes,L1,Los Dominicos,2
+L2,Vespucio Norte,L2,Zapadores,2
+L2,Zapadores,L2,Dorsal,2
+L2,Dorsal,L2,Einstein,2
+L2,Einstein,L2,Cementerios,2
+L2,Cementerios,L2,Cerro Blanco,2
+L2,Cerro Blanco,L2,Patronato,2
+L2,Patronato,L2,Puente Cal y Canto,2
+L2,Puente Cal y Canto,L2,Santa Ana,2
+L2,Santa Ana,L2,Los Heroes,2
+L2,Los Heroes,L2,Toesca,2
+L2,Toesca,L2,Parque OHiggins,2
+L2,Parque OHiggins,L2,Rondizzoni,2
+L2,Rondizzoni,L2,Franklin,2
+L2,Franklin,L2,El Llano,2
+L2,El Llano,L2,San Miguel,2
+L2,San Miguel,L2,Lo Vial,2
+L2,Lo Vial,L2,Departamental,2
+L2,Departamental,L2,Ciudad del Nino,2
+L2,Ciudad del Nino,L2,Lo Ovalle,2
+L2,Lo Ovalle,L2,El Parron,2
+L2,El Parron,L2,La Cisterna,2
+L2,La Cisterna,L2,El Bosque,2
+L2,El Bosque,L2,Observatorio,2
+L2,Observatorio,L2,Copa Lo Martinez,2
+L2,Copa Lo Martinez,L2,Hospital El Pino,2
+L3,Plaza Quilicura,L3,Lo Cruzat,2
+L3,Lo Cruzat,L3,Ferrocarril,2
+L3,Ferrocarril,L3,Los Libertadores,2
+L3,Los Libertadores,L3,Cardenal Caro,2
+L3,Cardenal Caro,L3,Vivaceta,2
+L3,Vivaceta,L3,ConchalI,2
+L3,ConchalI,L3,Plaza Chacabuco,2
+L3,Plaza Chacabuco,L3,Hospitales,2
+L3,Hospitales,L3,Puente Cal y Canto,2
+L3,Puente Cal y Canto,L3,Plaza de Armas,2
+L3,Plaza de Armas,L3,Universidad de Chile,2
+L3,Universidad de Chile,L3,Parque Almagro,2
+L3,Parque Almagro,L3,Matta,2
+L3,Matta,L3,Irrazaval,2
+L3,Irrazaval,L3,Monsenor Eyzaguirre,2
+L3,Monsenor Eyzaguirre,L3,Nunoa,2
+L3,Nunoa,L3,Chile Espana,2
+L3,Chile Espana,L3,Villa Frei,2
+L3,Villa Frei,L3,Plaza Egaña,2
+L3,Plaza Egaña,L3,Fernando Castillo Velasco,2
+L4,Tobalaba,L4,Cristobal Colon,2
+L4,Cristobal Colon,L4,Francisco Bilbao,2
+L4,Francisco Bilbao,L4,Principe de Gales,2
+L4,Principe de Gales,L4,Simon Bolivar,2
+L4,Simon Bolivar,L4,Plaza Egaña,2
+L4,Plaza Egaña,L4,Los Orientales,2
+L4,Los Orientales,L4,Grecia,2
+L4,Grecia,L4,Los Presidentes,2
+L4,Los Presidentes,L4,Quilin,2
+L4,Quilin,L4,Las Torres,2
+L4,Las Torres,L4,Macul,2
+L4,Macul,L4,Vicuna Mackenna,2
+L4,Vicuna Mackenna,L4,Vicente Valdes,2
+L4,Vicente Valdes,L4,Rojas Magallanes,2
+L4,Rojas Magallanes,L4,Trinidad,2
+L4,Trinidad,L4,San Jose de la Estrella,2
+L4,San Jose de la Estrella,L4,Los Quillayes,2
+L4,Los Quillayes,L4,Elisa Correa,2
+L4,Elisa Correa,L4,Hospital Sotero del Rio,2
+L4,Hospital Sotero del Rio,L4,Protectora de la Infancia,2
+L4,Protectora de la Infancia,L4,Las Mercedes,2
+L4,Las Mercedes,L4,Plaza de Puente Alto,2
+L4A,La Cisterna,L4A,San Ramon,2
+L4A,San Ramon,L4A,Santa Rosa,2
+L4A,Santa Rosa,L4A,La Granja,2
+L4A,La Granja,L4A,Santa Julia,2
+L4A,Santa Julia,L4A,Vicuna Mackenna,2
+L5,Plaza de Maipu,L5,Santiago Bueras,2
+L5,Santiago Bueras,L5,Del Sol,2
+L5,Del Sol,L5,Monte Tabor,2
+L5,Monte Tabor,L5,Las Parcelas,2
+L5,Las Parcelas,L5,Laguna Sur,2
+L5,Laguna Sur,L5,Barrancas,2
+L5,Barrancas,L5,Pudahuel,2
+L5,Pudahuel,L5,San Pablo,2
+L5,San Pablo,L5,Lo Prado,2
+L5,Lo Prado,L5,Blanqueado,2
+L5,Blanqueado,L5,Gruta de Lourdes,2
+L5,Gruta de Lourdes,L5,Quinta Normal,2
+L5,Quinta Normal,L5,Cumming,2
+L5,Cumming,L5,Santa Ana,2
+L5,Santa Ana,L5,Plaza de Armas,2
+L5,Plaza de Armas,L5,Bellas Artes,2
+L5,Bellas Artes,L5,Baquedano,2
+L5,Baquedano,L5,Parque Bustamante,2
+L5,Parque Bustamante,L5,Santa Isabel,2
+L5,Santa Isabel,L5,Irrazaval,2
+L5,Irrazaval,L5,Nuble,2
+L5,Nuble,L5,Rodrigo de Araya,2
+L5,Rodrigo de Araya,L5,Carlos Valdovinos,2
+L5,Carlos Valdovinos,L5,Camino Agricola,2
+L5,Camino Agricola,L5,San Joaquin,2
+L5,San Joaquin,L5,Pedrero,2
+L5,Pedrero,L5,Mirador,2
+L5,Mirador,L5,Bellavista de La Florida,2
+L5,Bellavista de La Florida,L5,Vicente Valdes,2
+L6,Cerrillos,L6,Lo Valledor,2
+L6,Lo Valledor,L6,Presidente Pedro Aguirre Cerda,2
+L6,Presidente Pedro Aguirre Cerda,L6,Franklin,2
+L6,Franklin,L6,Bio Bio,2
+L6,Bio Bio,L6,Nuble,2
+L6,Nuble,L6,Estadio Nacional,2
+L6,Estadio Nacional,L6,Nunoa,2
+L6,Nunoa,L6,Ines de Suarez,2
+L6,Ines de Suarez,L6,Los Leones,2
+L1,San Pablo,L5,San Pablo,6
+L1,Los Heroes,L2,Los Heroes,6
+L1,Universidad de Chile,L3,Universidad de Chile,6
+L1,Baquedano,L5,Baquedano,6
+L1,Los Leones,L6,Los Leones,6
+L1,Tobalaba,L4,Tobalaba,6
+L2,Santa Ana,L5,Santa Ana,6
+L2,Puente Cal y Canto,L3,Puente Cal y Canto,6
+L2,Franklin,L6,Franklin,6
+L2,La Cisterna,L4A,La Cisterna,6
+L3,Plaza de Armas,L5,Plaza de Armas,6
+L3,Irrazaval,L5,Irrazaval,6
+L3,Nunoa,L6,Nunoa,6
+L3,Plaza Egaña,L4,Plaza Egaña,6
+L4,Vicuna Mackenna,L4A,Vicuna Mackenna,6
+L4,Vicente Valdes,L5,Vicente Valdes,6
+L5,San Pablo,L1,San Pablo,6
+L5,Santa Ana,L2,Santa Ana,6
+L5,Baquedano,L1,Baquedano,6
+L5,Nuble,L6,Nuble,6
+L5,Vicente Valdes,L4,Vicente Valdes,6
+L6,Franklin,L2,Franklin,6
+L6,Nunoa,L3,Nunoa,6
+L6,Los Leones,L1,Los Leones,6
+L4A,La Cisterna,L2,La Cisterna,6
+L4A,Vicuna Mackenna,L4,Vicuna Mackenna,6
